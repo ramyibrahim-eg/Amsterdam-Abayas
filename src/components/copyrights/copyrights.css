@@ -1,0 +1,23 @@
+.copyrights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+    background: var(--bg);
+    color: #fff;
+    font-weight: bold;
+}
+
+.copyrights {
+    padding: 1rem 0;
+}
+
+.copyrights a {
+    color: var(--bl);
+}
+
+@media (max-width: 768px) {
+    .copyrights {
+        font-size: 12px;
+    }
+}

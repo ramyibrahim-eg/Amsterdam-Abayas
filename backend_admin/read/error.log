@@ -1,0 +1,17 @@
+[19-Dec-2023 09:44:27 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:44:47 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:45:24 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:45:37 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:45:37 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:46:58 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:46:58 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:49:49 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[19-Dec-2023 09:49:49 Europe/Berlin] PHP Warning:  Undefined variable $idProject in C:\xampp\htdocs\backend_admin\read\view_project.php on line 28
+[21-Dec-2023 14:43:33 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:43:33 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:43:33 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:43:33 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:45:25 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:45:25 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:45:25 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13
+[21-Dec-2023 14:45:25 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13

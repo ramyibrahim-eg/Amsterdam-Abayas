@@ -1,0 +1,15 @@
+[27-Dec-2023 14:52:20 Europe/Berlin] PHP Warning:  move_uploaded_file(../upload/img_about_1/658c2c14ef716.jpg): Failed to open stream: No such file or directory in C:\xampp\htdocs\backend_admin\update\update_about.php on line 77
+[27-Dec-2023 14:52:20 Europe/Berlin] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\xampp\tmp\phpFA4C.tmp&quot; to &quot;../upload/img_about_1/658c2c14ef716.jpg&quot; in C:\xampp\htdocs\backend_admin\update\update_about.php on line 77
+[28-Dec-2023 10:24:10 Europe/Berlin] PHP Warning:  Undefined array key "description_mission_en" in C:\xampp\htdocs\backend_admin\update\update_mission_vision.php on line 38
+[28-Dec-2023 10:24:10 Europe/Berlin] PHP Warning:  Undefined array key "description_mission_ar" in C:\xampp\htdocs\backend_admin\update\update_mission_vision.php on line 41
+[28-Dec-2023 10:24:10 Europe/Berlin] PHP Warning:  Undefined array key "description_vision_en" in C:\xampp\htdocs\backend_admin\update\update_mission_vision.php on line 44
+[28-Dec-2023 10:24:10 Europe/Berlin] PHP Warning:  Undefined array key "description_vision_ar" in C:\xampp\htdocs\backend_admin\update\update_mission_vision.php on line 47
+[28-Dec-2023 11:45:46 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 95
+[28-Dec-2023 11:46:06 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 95
+[28-Dec-2023 11:46:11 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 95
+[28-Dec-2023 13:33:30 Europe/Berlin] PHP Warning:  Attempt to read property "num_rows" on bool in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 55
+[28-Dec-2023 13:34:31 Europe/Berlin] PHP Warning:  Attempt to read property "num_rows" on bool in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 55
+[28-Dec-2023 13:35:20 Europe/Berlin] PHP Warning:  Undefined array key "img_goal_1" in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 57
+[28-Dec-2023 13:35:20 Europe/Berlin] PHP Warning:  unlink(../): Resource temporarily unavailable in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 60
+[28-Dec-2023 13:35:31 Europe/Berlin] PHP Warning:  Undefined array key "img_goal_1" in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 57
+[28-Dec-2023 13:35:31 Europe/Berlin] PHP Warning:  unlink(../): Resource temporarily unavailable in C:\xampp\htdocs\backend_admin\update\update_goal.php on line 60

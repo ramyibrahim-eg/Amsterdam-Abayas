@@ -1,0 +1,2 @@
+[19-Dec-2023 09:15:07 Europe/Berlin] PHP Warning:  Undefined array key "title_blog_post_en" in C:\xampp\htdocs\backend_admin\create\post.php on line 22
+[19-Dec-2023 09:15:07 Europe/Berlin] PHP Warning:  Undefined array key "title_blog_post_ar" in C:\xampp\htdocs\backend_admin\create\post.php on line 23

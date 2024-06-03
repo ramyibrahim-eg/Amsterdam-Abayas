@@ -1,0 +1,1 @@
+[21-Dec-2023 14:46:33 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\backend_admin\connect.php on line 13

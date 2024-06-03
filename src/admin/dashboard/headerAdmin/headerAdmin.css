@@ -1,0 +1,149 @@
+header {
+    padding: 5px;
+    background: var(--bg);
+    box-shadow: 14px 14px 14px var(--cl);
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+
+
+header .full_dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header .dropdown-content button {
+    width: 100%;
+    font-size: 14px;
+    padding: 2px 8px;
+    border: none;
+    background: transparent;
+    border-radius: 4px;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+header .dropdown-content button a,
+button.shortcut_dashboard a {
+    color: var(--ff);
+    width: 100%;
+    text-align: left;
+}
+
+header .dropright.active>button,
+header .dropdown-content button:hover {
+    background: var(--gg);
+}
+
+header .dropdown-btn,
+button.shortcut_dashboard {
+    border: none;
+    background: var(--gg);
+    color: var(--ff);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: .3s;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+header .dropdown-btn:hover,
+button.shortcut_dashboard:hover {
+    opacity: 0.7;
+}
+
+header .dropright-content,
+header .dropdown-content {
+    box-shadow: 14px 14px 14px var(--bg);
+    position: absolute;
+    pointer-events: none;
+    transition: .3s;
+    opacity: 0;
+
+    padding: 6px;
+    border-radius: 6px;
+    background: var(--bg);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header .dropdown.active .dropdown-btn {
+    background: var(--cl);
+    color: var(--ff);
+}
+
+header .dropdown.active .dropdown-content {
+    pointer-events: all;
+    position: absolute;
+    top: 2.5rem;
+    opacity: 1;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.dropdown.active {
+    position: relative;
+}
+
+header .dropdown.active .dropright-content {
+    top: -6px;
+}
+
+header .dropright {
+    position: relative;
+    width: 100%;
+}
+
+header .dropdown-content button.active {
+    opacity: .5;
+    border: 1px solid var(--ff);
+}
+
+header button.logout {
+    width: fit-content;
+    padding: 1rem !important;
+    background: var(--cl);
+    cursor: pointer;
+    color: var(--bl);
+    font-weight: bold;
+}
+
+header button.logout:hover {
+    opacity: 0.5;
+    border: 1px solid var(--ff);
+    color: var(--bl);
+}
+
+header div.logo {
+    width: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media (max-width: 768px) {
+    header div.logo {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+    }
+}

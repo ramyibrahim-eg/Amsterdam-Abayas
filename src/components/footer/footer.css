@@ -1,0 +1,178 @@
+#footer {
+    width: 100%;
+    height: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    background: var(--bl);
+}
+
+#footer .footer {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    gap: 5rem;
+}
+
+#footer .footer h2 {
+    color: var(--bg);
+    position: relative;
+    width: max-content;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#footer .footer h2 span {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--bg);
+    border-radius: 50%;
+}
+
+#footer .all_footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    align-items: start;
+}
+
+#footer .right,
+#footer .center,
+#footer .left {
+    display: flex;
+    justify-content: center;
+}
+
+#footer .center {
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    direction: ltr;
+}
+
+
+#footer .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer .links li {
+    cursor: pointer;
+}
+
+#footer .links a {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--ff);
+    position: relative;
+}
+
+#footer .links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--ff);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#footer .links a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+    color: var(--ff);
+}
+
+.left a.logo {
+    display: inline-block;
+    width: 7.5rem;
+    cursor: pointer;
+}
+
+#footer .center a {
+    color: var(--ff);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#footer .center div {
+    display: flex;
+    gap: 1rem;
+}
+
+#footer .center div a {
+    color: var(--ff);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+#footer .center div a:hover {
+    transform: translateY(-10px);
+}
+
+#footer .center a.whatsapp,
+#footer .center a.mailto {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#footer .center a.mailto svg,
+#footer .center a.whatsapp svg {
+    color: #fff;
+    font-size: 1.5rem;
+    background: #5a070b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+#footer .center a.whatsapp:hover svg,
+#footer .center a.mailto:hover svg {
+    transform: translateX(-10px);
+}
+
+@media (max-width: 768px) {
+    #footer .all_footer {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    #footer .links a {
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+
+    #footer .center a,
+    #footer .center div a {
+        font-size: 1rem;
+    }
+
+    .left a.logo {
+        width: 5rem;
+    }
+}

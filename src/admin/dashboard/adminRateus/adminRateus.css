@@ -1,0 +1,55 @@
+ div#admin_rateus {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-bottom: 5rem;
+ }
+
+ div#admin_rateus .admin_rateus_div {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ div#admin_rateus form.admin_rateus {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+     margin: auto;
+     background: var(--cl);
+     padding: 1rem;
+     width: 20rem;
+     direction: ltr;
+ }
+
+ div#admin_rateus textarea {
+     padding: 0.5rem 1rem;
+     border-radius: 1rem;
+     width: 100%;
+     height: 5rem;
+     resize: none;
+ }
+
+
+ div#admin_rateus .admin_rateus input[type="submit"] {
+     background: var(--bg);
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 4px;
+     font-weight: bold;
+     font-size: 1.1rem;
+     transition: all 0.5s ease-in-out 0s;
+     width: fit-content;
+ }
+
+ textarea#title_rate_us_ar,
+ textarea#respect_ar,
+ textarea#cultural_appreciation_ar,
+ textarea#integrity_ar,
+ textarea#customer_satisfaction_ar {
+     direction: rtl;
+ }
